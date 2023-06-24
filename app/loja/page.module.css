@@ -1,0 +1,25 @@
+.Products p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+}
+.nome{
+    font-size: 10px;
+}
+.Container {
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    margin-top: 80px;
+    font-size: 10px;
+}
+@media (max-width:425px){
+    .Produtos p{
+        font-size: small;
+    }
+    #nome{
+        font-size: small;
+    }
+  }

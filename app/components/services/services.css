@@ -1,0 +1,54 @@
+.Services{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+  .Services h3{
+    color:white;
+    font-family: 'Space Mono', monospace;
+    margin:30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Services p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .Segurity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Old{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Commerce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Outro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width:425px){
+    .Services{
+      display: flex;
+      flex-direction: row;
+      width: 425px;
+    }
+    .Primeiro{
+      margin: 0px;
+      padding: auto;
+    }
+  }
