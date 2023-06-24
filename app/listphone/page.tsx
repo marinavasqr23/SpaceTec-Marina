@@ -24,14 +24,15 @@ export default async function Phone (){
         
         
         {response.map((phone) => (
-        <div className=" Produtos flex flex-row justify-around p-10 align-center key={phone.nome}">
+        <div key={phone.nome}>
+        <div className=" Produtos flex flex-row justify-around p-10 align-center">
             <a className="Img m-30"key={phone.nome}><img src={phone.img} alt={phone.nome} width={150} height={150}/></a> 
              <p  className="flex flex-row text-white m-30 pt-10 font-normal">{phone.nome}</p> 
              <p className="m-30 pt-10 font-sm">{phone.descricao}</p>
              <p className="text-white m-30 pt-10 pb-0"key={phone.nome}>{phone.preco}</p> 
              <button className="text-white font-bold m-30 p-0 m-0 bg-gree box-content h-16 w-24 rounded-md border-white border-2">COMPRAR</button>
         </div>
-        
+        </div>
         ))}
         
         
