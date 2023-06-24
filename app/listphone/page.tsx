@@ -20,7 +20,7 @@ export default async function Phone (){
     return(
         
     
-        <div className="bg-black LOJA" key={phone.nome}>
+        <div className="bg-black LOJA">
         
         
         {response.map((phone) => (
