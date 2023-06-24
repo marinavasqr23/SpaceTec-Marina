@@ -1,5 +1,4 @@
 import axios from "axios";
-import Menu from "../components/menu/menu";
 import styles from "@/app/loja/page.module.css"
 import 
 type Phones ={
