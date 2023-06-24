@@ -6,7 +6,7 @@ export default function Menu (){
 <nav>
     <div className="Menu">
         <div className="Logo">
-            <img src="/logo.jpg" width="70" height="40" alt="Space Tec"/>
+            <Image src="/logo.jpg" width="70" height="40" alt="Space Tec"/>
            <h1>SPACE TEC</h1>
         </div>
         
