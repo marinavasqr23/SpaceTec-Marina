@@ -16,7 +16,7 @@ export default function Home() {
     <Services />
     <About />
     <Form />
-    <img src="/insta.png" alt="Planeta" width={20} height={20} />
+    
 
    </div>
    </>
